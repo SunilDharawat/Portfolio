@@ -8,6 +8,7 @@ import {
   Hotel,
   ClipboardCheck,
   FileQuestion,
+  Fingerprint,
 } from "lucide-react";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Badge } from "@/components/ui/badge";
@@ -22,6 +23,7 @@ const iconMap: Record<string, React.ElementType> = {
   Hotel,
   ClipboardCheck,
   FileQuestion,
+  Fingerprint,
 };
 
 function ProjectCard({
@@ -84,17 +86,19 @@ function ProjectCard({
       </div>
 
       {/* View Project Link */}
-      <div className="pt-4 border-t border-zinc-800">
-        <Button
-          variant="ghost"
-          size="sm"
-          className="text-zinc-400 hover:text-violet-400 hover:bg-violet-500/10 p-0 h-auto"
-          onClick={() => openProject(project.link)}
-        >
-          <span>View Details</span>
-          <ExternalLink className="w-4 h-4 ml-2" />
-        </Button>
-      </div>
+      {project.link && (
+        <div className="pt-4 border-t border-zinc-800">
+          <Button
+            variant="ghost"
+            size="sm"
+            className="text-zinc-400 hover:text-violet-400 hover:bg-violet-500/10 p-0 h-auto"
+            onClick={() => openProject(project.link)}
+          >
+            <span>View Details</span>
+            <ExternalLink className="w-4 h-4 ml-2" />
+          </Button>
+        </div>
+      )}
     </motion.div>
   );
 }

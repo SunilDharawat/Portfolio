@@ -75,7 +75,7 @@ export const projects = [
       "Customer Relationship Management application with responsive UIs, complex form validation systems, and RESTful API integration for efficient customer data management.",
     tech: ["React JS", "Tailwind CSS", "React Hook Form", "REST API"],
     icon: "Users",
-    link: "https://crmsystem.lovable.app/login",
+    link: "https://crmmanagementsystem.lovable.app/",
   },
   {
     id: 3,
@@ -85,10 +85,31 @@ export const projects = [
       "Comprehensive payroll system with role-based dynamic menu, employee management modules, attendance tracking, and automated payroll generation.",
     tech: ["React JS", "Role-based Access", "Automation"],
     icon: "DollarSign",
-    link: "https://payrollmanagementsystem.lovable.app/login",
+    link: "https://smssmhrm.in:8082/",
   },
+
   {
     id: 4,
+    title: "Audit Management System",
+    type: "Web Application",
+    description:
+      "Audit workflow management system for planning, executing, and tracking audit processes with reporting capabilities.",
+    tech: ["React JS", "Workflow Management", "Reporting"],
+    icon: "ClipboardCheck",
+    link: "https://pikvanaudit.lovable.app/",
+  },
+  {
+    id: 5,
+    title: "Exam Software",
+    type: "Web Application",
+    description:
+      "Online examination platform with question management, timed tests, automatic grading, and result analytics.",
+    tech: ["React JS", "Timer", "Analytics"],
+    icon: "FileQuestion",
+    // link: "https://onlineexam.lovable.app/login",
+  },
+  {
+    id: 6,
     title: "HRMS System",
     type: "Web Application",
     description:
@@ -98,26 +119,6 @@ export const projects = [
     link: "https://smssmhrm.in:8082/",
   },
   {
-    id: 5,
-    title: "Audit Management System",
-    type: "Web Application",
-    description:
-      "Audit workflow management system for planning, executing, and tracking audit processes with reporting capabilities.",
-    tech: ["React JS", "Workflow Management", "Reporting"],
-    icon: "ClipboardCheck",
-    link: "https://pikvanauditmanagement.lovable.app/",
-  },
-  {
-    id: 6,
-    title: "Exam Software",
-    type: "Web Application",
-    description:
-      "Online examination platform with question management, timed tests, automatic grading, and result analytics.",
-    tech: ["React JS", "Timer", "Analytics"],
-    icon: "FileQuestion",
-    link: "https://onlineexam.lovable.app/login",
-  },
-  {
     id: 7,
     title: "Pikvan Application",
     type: "Mobile App",
@@ -125,7 +126,23 @@ export const projects = [
       "Cross-platform mobile app for auditors with offline functionality and responsive layouts. Features intuitive interfaces for data collection, document management, and reporting.",
     tech: ["React Native", "Expo", "Offline Storage"],
     icon: "Smartphone",
-    link: "https://play.google.com/store/apps",
+    // link: "https://play.google.com/store/apps",
+  },
+  {
+    id: 8,
+    title: "Biometric Attendance Application",
+    type: "Mobile Application",
+    description:
+      "Biometric-based attendance management system using fingerprints captured via the user's devices for accurate and secure attendance tracking.",
+    tech: [
+      "React Native",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "Device Biometric Authentication",
+    ],
+    icon: "Fingerprint",
+    // link: "https://yourappwebsite.com",
   },
 ];
 
