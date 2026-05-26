@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: "Sunil Dharawat",
-  role: "Front-end Developer",
+  role: "Software Developer",
   tagline:
-    "Crafting responsive web and mobile experiences with React & React Native",
+    "Building scalable web and mobile applications with React.js, React Native, and modern frontend technologies.",
   email: "sunildharawal2001@gmail.com",
   phone: "+91 7617329916",
   location: "Indore, India",
@@ -11,7 +11,7 @@ export const personalInfo = {
 };
 
 export const aboutInfo = {
-  bio: "I'm a passionate Front-end Developer with expertise in React JS and React Native, creating responsive web and mobile applications. Recently expanded skills to include cross-platform mobile development with React Native and Expo.",
+  bio: "Frontend & Mobile Developer with 2+ years of experience creating high-performance web and mobile applications using React.js, React Native, and Expo. Worked on enterprise solutions in audit management, payroll, CRM, and hospitality industries. Passionate about scalable architecture, real-time systems, and delivering fast, user-focused digital experiences.",
   education: {
     degree: "B.Tech in Computer Science Engineering",
     university: "RGPV University, Bhopal",
@@ -30,7 +30,15 @@ export const skills = [
   {
     category: "Frontend Development",
     icon: "Code",
-    items: ["React JS", "React Native", "HTML5", "CSS3", "JavaScript (ES6+)"],
+    items: [
+      "React JS",
+      "Next.js",
+      "React Native",
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "TypeScript",
+    ],
   },
   {
     category: "Styling & UI",
@@ -46,18 +54,42 @@ export const skills = [
       "RESTful APIs",
       "React Hook Form",
       "Zod & Yup",
+      "MySQL",
+      "React TanStack Query",
     ],
   },
   {
     category: "Mobile Development",
     icon: "Smartphone",
-    items: ["React Native", "Expo", "Cross-platform", "iOS & Android"],
+    items: [
+      "React Native",
+      "Expo",
+      "Cross-platform Development",
+      "iOS & Android Apps",
+    ],
   },
 ];
 
 export const projects = [
   {
     id: 1,
+    title: "Ad Vision Advertising",
+    type: "Web Application",
+    description:
+      "A modern advertising platform designed to help businesses display their work, strengthen their online presence, and attract quality customer leads.",
+    tech: [
+      "Next.js",
+      "Image Optimization",
+      "Sanity CMS",
+      "Tailwind CSS",
+      "Email Integration",
+      "SEO Optimization",
+    ],
+    icon: "Earth",
+    link: "https://ad-vision-advertising.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Hotel Management System",
     type: "Web Application",
     description:
@@ -68,7 +100,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "CRM System",
     type: "Web Application",
     description:
@@ -78,7 +110,7 @@ export const projects = [
     link: "https://crmmanagementsystem.lovable.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Payroll Management System",
     type: "Web Application",
     description:
@@ -89,7 +121,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Audit Management System",
     type: "Web Application",
     description:
@@ -99,7 +131,7 @@ export const projects = [
     link: "https://pikvanaudit.lovable.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Exam Software",
     type: "Web Application",
     description:
@@ -109,7 +141,7 @@ export const projects = [
     // link: "https://onlineexam.lovable.app/login",
   },
   {
-    id: 6,
+    id: 7,
     title: "HRMS System",
     type: "Web Application",
     description:
@@ -119,7 +151,7 @@ export const projects = [
     link: "https://smssmhrm.in:8082/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Pikvan Application",
     type: "Mobile App",
     description:
@@ -129,7 +161,7 @@ export const projects = [
     // link: "https://play.google.com/store/apps",
   },
   {
-    id: 8,
+    id: 9,
     title: "Biometric Attendance Application",
     type: "Mobile Application",
     description:

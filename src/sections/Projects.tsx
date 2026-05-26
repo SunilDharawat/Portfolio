@@ -9,6 +9,7 @@ import {
   ClipboardCheck,
   FileQuestion,
   Fingerprint,
+  Earth,
 } from "lucide-react";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Badge } from "@/components/ui/badge";
@@ -24,6 +25,7 @@ const iconMap: Record<string, React.ElementType> = {
   ClipboardCheck,
   FileQuestion,
   Fingerprint,
+  Earth,
 };
 
 function ProjectCard({
