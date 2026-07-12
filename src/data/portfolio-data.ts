@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Sunil Dharawat",
   role: "Software Developer",
   tagline:
-    "Building scalable web and mobile applications with React.js, React Native, and modern frontend technologies.",
+    "Building complete web and mobile applications—from concept to deployment—with a focus on scalability and seamless user experiences.",
   email: "sunildharawal2001@gmail.com",
   phone: "+91 7617329916",
   location: "Indore, India",
@@ -11,7 +11,7 @@ export const personalInfo = {
 };
 
 export const aboutInfo = {
-  bio: "Frontend & Mobile Developer with 2+ years of experience creating high-performance web and mobile applications using React.js, React Native, and Expo. Worked on enterprise solutions in audit management, payroll, CRM, and hospitality industries. Passionate about scalable architecture, real-time systems, and delivering fast, user-focused digital experiences.",
+  bio: "Frontend & Mobile Developer with 2 years of experience building high‑performance web and mobile applications. Experienced in enterprise solutions across audit management, payroll, CRM, and hospitality. Passionate about scalable architecture, real‑time systems, and delivering fast, user‑focused digital experiences.",
   education: {
     degree: "B.Tech in Computer Science Engineering",
     university: "RGPV University, Bhopal",
@@ -20,7 +20,7 @@ export const aboutInfo = {
   },
   stats: [
     { value: 8, suffix: "+", label: "Projects Completed" },
-    { value: 1, suffix: "+", label: "Years Experience" },
+    { value: 2, suffix: "", label: "Years Experience" },
     { value: 10, suffix: "+", label: "Technologies" },
     { value: 100, suffix: "%", label: "Commitment" },
   ],
@@ -43,12 +43,15 @@ export const skills = [
   {
     category: "Styling & UI",
     icon: "Palette",
-    items: ["Tailwind CSS", "Shadcn UI", "Responsive Design", "CSS Modules"],
+    items: ["AI Designing Platform", "Tailwind CSS", "Shadcn UI", "Responsive Design", "CSS Modules"],
   },
   {
     category: "Tools & Methods",
     icon: "Wrench",
     items: [
+      "Docker",
+      "GCP/AWS/Contabo",
+      "Supabase",
       "Git & GitHub",
       "VS Code",
       "RESTful APIs",
@@ -71,6 +74,24 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: 1,
+    title: "Aurora Helth Application",
+    type: "Android/IOS App",
+    description:
+      "This is a complete health application with AI chatbot integration, OAuth login, and complete user authentication and authorization flow. It also includes AI model integration to provide users with AI-powered health insights and recommendations. The application is built with React Native and Expo and uses Supabase for backend services.",
+    tech: [
+      "AI Chatbot",
+      "React Native",
+      "Expo",
+      "Supabase",
+      "Tailwind CSS",
+      "OAuth Integration",
+      "AI Model Integration",
+    ],
+    icon: "Smartphone",
+    link: "https://expo.dev/accounts/sunildharawat/projects/aurora-health/builds/805f9372-e389-4253-9b23-422c31dd7f37",
+  },
   {
     id: 1,
     title: "Ad Vision Advertising",
